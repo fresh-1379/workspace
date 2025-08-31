@@ -28,3 +28,12 @@ git config --global --list
 ```
 创建分支
 
+
+
+## 远程仓库
+```bash
+# 1. 首先添加远程仓库（如果尚未添加）
+git remote add origin <远程仓库URL>
+# 4. 推送到远程仓库
+git push -u origin main
+```
