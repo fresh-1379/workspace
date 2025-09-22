@@ -15,8 +15,8 @@ git log
 用户名与邮箱 
 ```
 仅当前项目生效  
-git config user.name ""  
-git config user.email ""  
+git config user.name "zx.Ling"  
+git config user.email "lingzhixin@cs-t.cn"  
 全局有效  
 git config --global user.name ""  
 git config --global user.email ""  

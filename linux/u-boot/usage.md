@@ -67,11 +67,7 @@ mmc read addr blk cnt
 ```
 
 ### 文件系统操作
-```
-dhcp;setenv serverip 192.168.5.184;setenv netmask 255.255.255.0;saveenv
-tftp 0x100100000 fip.bin
-mmc dev 0 1;mmc write 0x100100000 0 0x800
-```
+
 
 
 ### boot操作
@@ -126,6 +122,13 @@ mii write 0 0 0x1200       # 重启自动协商
 Reading from PHY 0 register 1: 782d  # 返回值16进制
 ```
 
+
+### 实际用例 （算能BM688）
+```
+dhcp;setenv serverip 192.168.5.184;setenv netmask 255.255.255.0;saveenv #配通网络
+tftp 0x100100000 fip.bin #下载镜像
+mmc dev 0 1;mmc write 0x100100000 0 0x800 #保存镜像到emmc启动分区（boot0） 默认地址偏移 : 0  块数： hex 0x800 dec 2048
+```
 
 
 

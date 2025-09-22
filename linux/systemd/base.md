@@ -11,4 +11,9 @@ systemctl enable httpd
 systemctl list-units --type=service
 ```
 
-
+#### 
+```
+systemctl get-default #显示默认启动模式
+systemctl set-default multi-user.target #设置默认启动模式
+systemctl get-default graphical.target #启动图形界面
+```
