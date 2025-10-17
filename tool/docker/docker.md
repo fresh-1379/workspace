@@ -59,7 +59,7 @@ docker rmi <image_id>
 # 创建快照
 docker export <container_id> > <file_name>.tar
 # 导入快照
-docker import <file_name>.tar <image_name>
+docker import <file_name>.tar <image_name>:<tag>
 ```
 
 #### 保存容器 （保存元数据）
