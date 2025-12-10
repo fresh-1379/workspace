@@ -13,8 +13,8 @@ git reset --soft  HEAD~1
 git config user.name "zx.Ling"  
 git config user.email "lingzhixin@cs-t.cn"  
 全局有效  
-git config --global user.name ""  
-git config --global user.email ""  
+git config --global user.name "zx.Ling"  
+git config --global user.email "lingzhixin@cs-t.cn"  
 ```
 查看配置  
 ```
