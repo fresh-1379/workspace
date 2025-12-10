@@ -6,6 +6,10 @@ git add .
 git commit -m "xxx"
 #撤回提交  
 git reset --soft  HEAD~1
+#添加远程仓库
+git remote add origin <remote-repository-URL>
+#推到远程仓库
+git push -u origin main
 ```
 用户名与邮箱 
 ```
