@@ -15,7 +15,8 @@ u-boot : 引导程序  BL33
 
 ### U-boot
 
-### initram
+### initramfs  
+(Buildroot的根文件系统，busybox) 
 
 ### rootfs (overly)
 
