@@ -15,7 +15,7 @@ git push -u origin main
 ```
 仅当前项目生效  
 git config user.name "zx.Ling"  
-git config user.email "lingzhixin@cs-t.cn"  
+git config user.email "2052129602@qq.com"  
 全局有效  
 git config --global user.name "zx.Ling"  
 git config --global user.email "lingzhixin@cs-t.cn"  
