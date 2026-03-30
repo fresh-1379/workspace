@@ -18,7 +18,7 @@ git config user.name "zx.Ling"
 git config user.email "2052129602@qq.com"  
 全局有效  
 git config --global user.name "zx.Ling"  
-git config --global user.email "lingzhixin@cs-t.cn"  
+git config --global user.email "2052129602@qq.com"  
 ```
 查看配置  
 ```

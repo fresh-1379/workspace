@@ -73,5 +73,7 @@ docker load < <file_name>.tar
 ```
 
 
+
 ### Dockerfile
+docker build -f /path/to/Dockerfile -t myimage:1.0 .
 
