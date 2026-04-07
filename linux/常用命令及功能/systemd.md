@@ -8,7 +8,7 @@ systemctl enable httpd
 ### 基本使用
 #### 显示全部服务
 ```
-systemctl list-units --type=service
+systemctl list-units --type=service --
 ```
 
 #### 
